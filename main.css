@@ -1,3 +1,50 @@
 body {
-    background-color: teal;
+    background-color: #eee;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    clear: both;
+}
+
+/* PRODUCTS */
+
+.books {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-content: center;
+    flex: 0 0 33%;
+}
+
+.card {
+    border: 1px lightblue solid;
+    box-shadow: 2px 2px;
+    margin: 20px;
+}
+
+.card header h2 {
+    text-align: center;
+}
+
+.card p {
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 10px;
+    text-align: justify;
+    font-size: 1em;
+    padding: 15px;
+}
+
+.books img {
+    width: 300px;
+    padding: 15px;
+}
+
+/* AVAILABILITY */
+
+.availability {
+    background-color: #333;
+    color: Yellow;
+    padding-left: 5px;
 }
