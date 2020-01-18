@@ -61,16 +61,42 @@ h1 {
 .specifications {
     padding-left: 5px;
     text-align: left;
+    margin: 0;
+    padding: 0;
+}
+
+.specifications h3 {
+    margin: 5px 15px 5px 5px;
+    padding: 0;
 }
 
 .specifications p {
     font-weight: bold;
-    margin: 0;
+    margin: 10px 3px;
     padding: 0;
 }
 
 .specifications footer {
     font-weight: normal;
     font-size: 12px;
-    margin-top: 5px;
+    margin: 5px 5px;
+}
+
+/* PRODUCT CARDS PRICING SECTION */
+
+.pricing {
+    text-align: left;
+    margin: 0;
+    padding: 0;
+}
+
+.pricing h3 {
+    margin: 5px 15px 5px 5px;
+    padding: 0;
+}
+
+.pricing p {
+    margin: 10px 3px;
+    padding: 0;
+    font-weight: bold;
 }
