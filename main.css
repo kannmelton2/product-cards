@@ -22,15 +22,17 @@ h1 {
 }
 
 .card {
-    border: 1px lightblue solid;
-    box-shadow: 2px 2px;
+    border: 1px #BDBDBD solid;
+    box-shadow: 2px 2px #00796B;
     margin: 20px;
     width: 30%;
     text-align: center;
+    background-color: #B2DFDB;
 }
 
 .card header h2 {
     text-align: center;
+    color: #333;
 }
 
 .card p {
