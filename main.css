@@ -1,6 +1,6 @@
 body {
     background-color: #eee;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
     color: #333;
     margin: 0;
     padding: 0;
@@ -33,6 +33,7 @@ h1 {
 .card header h2 {
     text-align: center;
     color: #333;
+    font-weight: 700;
 }
 
 .card p {
@@ -42,6 +43,7 @@ h1 {
     text-align: justify;
     font-size: 1em;
     padding: 15px;
+    font-weight: 400;
 }
 
 .card img {
@@ -73,7 +75,7 @@ h1 {
 }
 
 .specifications p {
-    font-weight: bold;
+    font-weight: 700;
     margin: 10px 3px;
     padding: 0;
 }
@@ -100,5 +102,5 @@ h1 {
 .pricing p {
     margin: 10px 3px;
     padding: 0;
-    font-weight: bold;
+    font-weight: 700;
 }
